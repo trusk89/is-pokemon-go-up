@@ -16,6 +16,7 @@ $ npm install --save is-pokemon-go-up
 const isPokemonGoUp = require('is-pokemon-go-up')
 
 isPokemonGoUp()
+  .then(result => console.log(result))
 // => 'Yep. Go outside and catch some!'
 ```
 
@@ -23,7 +24,7 @@ isPokemonGoUp()
 
 ### isPokemonGoUp()
 
-Tells you if Pokémon GO is up
+Returns a string telling you if Pokémon GO is up.
 
 ## License
 
