@@ -3,7 +3,7 @@
 const execa = require('execa')
 const time = require('promise-time')
 
-const url = 'https://pgorelease.nianticlabs.com/plfe'
+const url = 'https://pgorelease.nianticlabs.com/plfe/'
 
 function getTimePromise () {
   return time(execa)('curl', ['-s', url])
