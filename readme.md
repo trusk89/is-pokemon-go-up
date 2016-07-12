@@ -26,6 +26,10 @@ isPokemonGoUp()
 
 Returns a string telling you if Pokémon GO is up.
 
+## Related
+
+- [is-pokemon-go-up-cli](https://github.com/sotojuan/is-pokemon-go-up-cli) - CLI version of this
+
 ## License
 
 MIT © [Juan Soto](http://juansoto.me)
