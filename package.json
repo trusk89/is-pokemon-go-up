@@ -1,6 +1,6 @@
 {
   "name": "is-pokemon-go-up",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Check if Pokémon GO is up",
   "license": "MIT",
   "repository": "sotojuan/is-pokemon-go-up",
