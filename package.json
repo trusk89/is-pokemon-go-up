@@ -1,0 +1,40 @@
+{
+  "name": "is-pokemon-go-up",
+  "version": "0.0.0",
+  "description": "Check if Pokémon GO is up",
+  "license": "MIT",
+  "repository": "sotojuan/is-pokemon-go-up",
+  "author": {
+    "name": "Juan Soto",
+    "email": "juan@juansoto.me",
+    "url": "juansoto.me"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "standard | snazzy --verbose && ava --verbose"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "pokemon",
+    "go",
+    "up",
+    "server"
+  ],
+  "dependencies": {
+    "execa": "^0.4.0",
+    "promise-time": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "babel-eslint": "^6.1.2",
+    "snazzy": "^4.0.0",
+    "standard": "^7.1.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
