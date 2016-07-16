@@ -1,12 +1,12 @@
 'use strict'
 
-const execa = require('execa')
+const fetch = require('node-fetch')
 const time = require('promise-time')
 
 const url = 'https://pgorelease.nianticlabs.com/plfe/'
 
 function getTimePromise () {
-  return time(execa)('curl', ['-s', url])
+  return time(fetch)(url)
 }
 
 function judge (time) {
